@@ -1,0 +1,180 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 10006.61 ms	Phase: init	Status: timeout
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 13:27:20,584 - INFO - Starting MoSEs framework demonstration
+
+2025-09-21 13:27:20,584 - INFO - Generating synthetic data
+
+2025-09-21 13:27:20,595 - INFO - Generating synthetic data
+
+2025-09-21 13:27:20,598 - INFO - Building Stylistics Reference Repository (SRR)
+
+2025-09-21 13:27:20,598 - INFO - Extracting linguistic features from texts
+
+2025-09-21 13:27:20,608 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 13:27:21,876 - INFO - SRR built with 800 samples and 38 features
+
+2025-09-21 13:27:21,877 - INFO - Training Stylistics-Aware Router (SAR)
+
+2025-09-21 13:27:22,034 - INFO - SAR trained with prototypes for 5 styles
+
+2025-09-21 13:27:22,034 - INFO - Training Conditional Threshold Estimator (CTE)
+
+2025-09-21 13:27:22,051 - INFO - CTE trained successfully
+
+2025-09-21 13:27:22,051 - INFO - Making predictions with MoSEs framework
+
+2025-09-21 13:27:22,051 - INFO - Routing texts using SAR
+
+2025-09-21 13:27:22,051 - INFO - Extracting linguistic features from texts
+
+2025-09-21 13:27:22,053 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 13:27:22,074 - INFO - Extracting linguistic features from texts
+
+2025-09-21 13:27:22,084 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 13:27:22,101 - INFO - Model evaluation results:
+
+2025-09-21 13:27:22,101 - INFO - Accuracy: 0.6950
+
+2025-09-21 13:27:22,101 - INFO - F1 Score: 0.7265
+
+2025-09-21 13:27:22,101 - INFO - 
+
+Sample predictions:
+
+2025-09-21 13:27:22,101 - INFO - Text 1: Predicted=AI-generated, Actual=AI-generated, Confidence=0.9295
+
+2025-09-21 13:27:22,101 - INFO - Text 2: Predicted=AI-generated, Actual=Human-written, Confidence=0.6864
+
+2025-09-21 13:27:22,101 - INFO - Text 3: Predicted=AI-generated, Actual=AI-generated, Confidence=0.9457
+
+2025-09-21 13:27:22,101 - INFO - Text 4: Predicted=Human-written, Actual=Human-written, Confidence=0.7351
+
+2025-09-21 13:27:22,101 - INFO - Text 5: Predicted=AI-generated, Actual=Human-written, Confidence=0.6209
+
+2025-09-21 13:27:22,102 - INFO - MoSEs framework demonstration completed successfully
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 13:27:20,584 - INFO - Starting MoSEs framework demonstration\n2025-09-21 13:27:20,584 - INFO - Generating synthetic data\n2025-09-21 13:27:20,595 - INFO - Generating synthetic data\n2025-09-21 13:27:20,598 - INFO - Building Stylistics Reference Repository (SRR)\n2025-09-21 13:27:20,598 - INFO - Extracting linguistic features from texts\n2025-09-21 13:27:20,608 - INFO - Extracting semantic embeddings from texts\n2025-09-21 13:27:21,876 - INFO - SRR built with 800 samples and 38 features\n2025-09-21 13:27:21,877 - INFO - Training Stylistics-Aware Router (SAR)\n2025-09-21 13:27:22,034 - INFO - SAR trained with prototypes for 5 styles\n2025-09-21 13:27:22,034 - INFO - Training Conditional Threshold Estimator (CTE)\n2025-09-21 13:27:22,051 - INFO - CTE trained successfully\n2025-09-21 13:27:22,051 - INFO - Making predictions with MoSEs framework\n2025-09-21 13:27:22,051 - INFO - Routing texts using SAR\n2025-09-21 13:27:22,051 - INFO - Extracting linguistic features from texts\n2025-09-21 13:27:22,053 - INFO - Extracting semantic embeddings from texts\n2025-09-21 13:27:22,074 - INFO - Extracting linguistic features from texts\n2025-09-21 13:27:22,084 - INFO - Extracting semantic embeddings from texts\n2025-09-21 13:27:22,101 - INFO - Model evaluation results:\n2025-09-21 13:27:22,101 - INFO - Accuracy: 0.6950\n2025-09-21 13:27:22,101 - INFO - F1 Score: 0.7265\n2025-09-21 13:27:22,101 - INFO - \nSample predictions:\n2025-09-21 13:27:22,101 - INFO - Text 1: Predicted=AI-generated, Actual=AI-generated, Confidence=0.9295\n2025-09-21 13:27:22,101 - INFO - Text 2: Predicted=AI-generated, Actual=Human-written, Confidence=0.6864\n2025-09-21 13:27:22,101 - INFO - Text 3: Predicted=AI-generated, Actual=AI-generated, Confidence=0.9457\n2025-09-21 13:27:22,101 - INFO - Text 4: Predicted=Human-written, Actual=Human-written, Confidence=0.7351\n2025-09-21 13:27:22,101 - INFO - Text 5: Predicted=AI-generated, Actual=Human-written, Confidence=0.6209\n2025-09-21 13:27:22,102 - INFO - MoSEs framework demonstration completed successfully\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 4358.43 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 4d3e6d8e-014a-44f9-b434-1fa377fb1a7b Version: $LATEST
+
+RequestId: 4d3e6d8e-014a-44f9-b434-1fa377fb1a7b Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 4d3e6d8e-014a-44f9-b434-1fa377fb1a7b
+
+REPORT RequestId: 4d3e6d8e-014a-44f9-b434-1fa377fb1a7b	Duration: 4360.32 ms	Billed Duration: 4361 ms	Memory Size: 3008 MB	Max Memory Used: 109 MB	
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 13:27:23,289 - INFO - Starting MoSEs framework demonstration
+
+2025-09-21 13:27:23,289 - INFO - Generating synthetic data
+
+2025-09-21 13:27:23,300 - INFO - Generating synthetic data
+
+2025-09-21 13:27:23,303 - INFO - Building Stylistics Reference Repository (SRR)
+
+2025-09-21 13:27:23,303 - INFO - Extracting linguistic features from texts
+
+2025-09-21 13:27:23,313 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 13:27:23,638 - INFO - SRR built with 800 samples and 38 features
+
+2025-09-21 13:27:23,638 - INFO - Training Stylistics-Aware Router (SAR)
+
+2025-09-21 13:27:23,749 - INFO - SAR trained with prototypes for 5 styles
+
+2025-09-21 13:27:23,749 - INFO - Training Conditional Threshold Estimator (CTE)
+
+2025-09-21 13:27:23,753 - INFO - CTE trained successfully
+
+2025-09-21 13:27:23,753 - INFO - Making predictions with MoSEs framework
+
+2025-09-21 13:27:23,754 - INFO - Routing texts using SAR
+
+2025-09-21 13:27:23,754 - INFO - Extracting linguistic features from texts
+
+2025-09-21 13:27:23,756 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 13:27:23,769 - INFO - Extracting linguistic features from texts
+
+2025-09-21 13:27:23,772 - INFO - Extracting semantic embeddings from texts
+
+2025-09-21 13:27:23,782 - INFO - Model evaluation results:
+
+2025-09-21 13:27:23,782 - INFO - Accuracy: 0.6900
+
+2025-09-21 13:27:23,782 - INFO - F1 Score: 0.6931
+
+2025-09-21 13:27:23,782 - INFO - 
+
+Sample predictions:
+
+2025-09-21 13:27:23,783 - INFO - Text 1: Predicted=Human-written, Actual=AI-generated, Confidence=0.7301
+
+2025-09-21 13:27:23,783 - INFO - Text 2: Predicted=Human-written, Actual=Human-written, Confidence=0.7806
+
+2025-09-21 13:27:23,783 - INFO - Text 3: Predicted=AI-generated, Actual=AI-generated, Confidence=0.8263
+
+2025-09-21 13:27:23,783 - INFO - Text 4: Predicted=Human-written, Actual=Human-written, Confidence=0.8782
+
+2025-09-21 13:27:23,783 - INFO - Text 5: Predicted=Human-written, Actual=Human-written, Confidence=0.5058
+
+2025-09-21 13:27:23,783 - INFO - MoSEs framework demonstration completed successfully
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 13:27:23,289 - INFO - Starting MoSEs framework demonstration\n2025-09-21 13:27:23,289 - INFO - Generating synthetic data\n2025-09-21 13:27:23,300 - INFO - Generating synthetic data\n2025-09-21 13:27:23,303 - INFO - Building Stylistics Reference Repository (SRR)\n2025-09-21 13:27:23,303 - INFO - Extracting linguistic features from texts\n2025-09-21 13:27:23,313 - INFO - Extracting semantic embeddings from texts\n2025-09-21 13:27:23,638 - INFO - SRR built with 800 samples and 38 features\n2025-09-21 13:27:23,638 - INFO - Training Stylistics-Aware Router (SAR)\n2025-09-21 13:27:23,749 - INFO - SAR trained with prototypes for 5 styles\n2025-09-21 13:27:23,749 - INFO - Training Conditional Threshold Estimator (CTE)\n2025-09-21 13:27:23,753 - INFO - CTE trained successfully\n2025-09-21 13:27:23,753 - INFO - Making predictions with MoSEs framework\n2025-09-21 13:27:23,754 - INFO - Routing texts using SAR\n2025-09-21 13:27:23,754 - INFO - Extracting linguistic features from texts\n2025-09-21 13:27:23,756 - INFO - Extracting semantic embeddings from texts\n2025-09-21 13:27:23,769 - INFO - Extracting linguistic features from texts\n2025-09-21 13:27:23,772 - INFO - Extracting semantic embeddings from texts\n2025-09-21 13:27:23,782 - INFO - Model evaluation results:\n2025-09-21 13:27:23,782 - INFO - Accuracy: 0.6900\n2025-09-21 13:27:23,782 - INFO - F1 Score: 0.6931\n2025-09-21 13:27:23,782 - INFO - \nSample predictions:\n2025-09-21 13:27:23,783 - INFO - Text 1: Predicted=Human-written, Actual=AI-generated, Confidence=0.7301\n2025-09-21 13:27:23,783 - INFO - Text 2: Predicted=Human-written, Actual=Human-written, Confidence=0.7806\n2025-09-21 13:27:23,783 - INFO - Text 3: Predicted=AI-generated, Actual=AI-generated, Confidence=0.8263\n2025-09-21 13:27:23,783 - INFO - Text 4: Predicted=Human-written, Actual=Human-written, Confidence=0.8782\n2025-09-21 13:27:23,783 - INFO - Text 5: Predicted=Human-written, Actual=Human-written, Confidence=0.5058\n2025-09-21 13:27:23,783 - INFO - MoSEs framework demonstration completed successfully\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1629.33 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
